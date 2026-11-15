@@ -55,7 +55,7 @@ node dist/index.js
 ### Claude Code
 
 ```bash
-claude mcp add wikidot-layout -- node "C:/Users/Administrator/wikidotLayoutMCP/dist/index.js"
+claude mcp add wikidot-layout -- node "<path>/wikidot-layout-mcp/dist/index.js"
 ```
 
 ### JSON 配置（Claude Desktop 或兼容客户端）
@@ -65,7 +65,7 @@ claude mcp add wikidot-layout -- node "C:/Users/Administrator/wikidotLayoutMCP/d
   "mcpServers": {
     "wikidot-layout": {
       "command": "node",
-      "args": ["C:/Users/Administrator/wikidotLayoutMCP/dist/index.js"],
+      "args": ["<path>/wikidot-layout-mcp/dist/index.js"],
       "env": {
         "CHROME_PATH": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
         "HTTPS_PROXY": "http://127.0.0.1:7890",
