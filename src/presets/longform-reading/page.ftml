@@ -1,0 +1,80 @@
+[[div class="lay-page lay-page--reading"]]
+[[div class="lay-topbar lay-region lay-region-topbar"]]
+[[span class="lay-brand"]]{{brand}}[[/span]]
+[[div class="lay-nav"]]
+[[span class="lay-nav-item"]][[[longform|长篇]]][[/span]]
+[[span class="lay-nav-item"]][[[longform/archive|归档]]][[/span]]
+[[span class="lay-nav-item"]][[[longform/about|关于]]][[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--reading lay-region lay-region-content"]]
+[[div class="lay-main"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ {{pageTitle}}
+
+[[div class="lay-reading-meta"]]
+[[span]]作者：佚名[[/span]]
+[[span]]2026-11-15[[/span]]
+[[span]]约 24 分钟[[/span]]
+[[/div]]
+
+[[div class="lay-prose lay-reading-body"]]
+
+++ 一
+
+阅读需要的不是更多内容，而是更少的干扰。当行宽、行距与字号彼此匹配时，眼睛会在行首与行尾之间形成稳定的节奏。
+
+长文版式把正文限制在约 680px。这个宽度不是审美偏好，而是对回读成本的约束。
+
+[[div_ class="lay-note-strip"]]
+**旁注：** 这里使用 `div_`，渲染时不会额外包裹段落，适合插入紧贴上下文的短注记。
+[[/div]]
+
+++ 二
+
+节奏来自变化，但变化必须有理由。段落可以长，也可以短；长段之后给一个短句，读者会自然停顿。
+
+[[div class="lay-figure"]]
+[[div class="lay-figure-art"]]
+图 1 · 阅读轴示意
+[[/div]]
+[[div class="lay-figure-caption"]]
+图 1：稳定的阅读轴比装饰性版式更能降低疲劳。
+[[/div]]
+[[/div]]
+
+++ 三
+
+不要害怕空白。空白不是浪费，而是让结构可见的成本。把边框减到最少，把留白加到位。
+
+[[div class="lay-rule"]]
+PAUSE
+[[/div]]
+
+++ 四
+
+当文本结束时，让结尾安静地结束。不需要额外的装饰，也不需要把结论再重复一遍。
+
+[[div class="lay-reading-footnote"]]
+
+**脚注**
+
+1. 本页所有尺寸都可以通过 token 调整。
+2. `readingWidth` 建议保持在 620–720px。
+
+[[/div]]
+
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-footer lay-region lay-region-footer"]]
+[[span class="lay-footer-mark"]]{{brand}}[[/span]]
+[[span]]长文阅读版式 · longform-reading[[/span]]
+[[span]]窄栏、衬线、低干扰[[/span]]
+[[/div]]
+[[/div]]

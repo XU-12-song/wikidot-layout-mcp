@@ -1,0 +1,8 @@
+https://scp-wiki-cn.wikidot.com/theme:bedrock
+由于网络原因，https://scp-wiki-cn.wikidot.com/theme:basalt不总是有用，其CSS仓库，可参考
+https://github.com/Basalt-Team/Basalt
+https://scp-wiki-cn.wikidot.com/theme:black-highlighter-theme黑色标记笔样式
+其仓库：https://github.com/Nu-SCPTheme/Black-Highlighter
+
+文件夹内的wikidot.css是wikidot的默认样式，sigma.css是scp-wiki-cn选择的theme，也是一定会加载的，你可以使用
+@import url("https://cdn.scpwiki.com/theme/en/basalt/normalize-min.css");来覆盖掉sigma.css的样式，它会把绝大多数样式变为unset

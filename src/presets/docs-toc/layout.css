@@ -1,0 +1,61 @@
+@import url("../_shared/base.css");
+
+:root {
+  --lay-content-width: {{contentWidth}};
+  --lay-sidebar-width: {{sidebarWidth}};
+  --lay-toc-width: {{tocWidth}};
+  --lay-gutter: {{gutter}};
+  --lay-paper: {{paper}};
+  --lay-surface: {{surface}};
+  --lay-ink: {{ink}};
+  --lay-muted: {{muted}};
+  --lay-line: {{line}};
+  --lay-accent: {{accent}};
+  --lay-radius: {{radius}};
+  --lay-font-sans: {{fontSans}};
+  --lay-font-serif: {{fontSerif}};
+  --lay-line-height: {{lineHeight}};
+  --lay-shell-max: 1320px;
+  --lay-line-soft: color-mix(in srgb, var(--lay-line) 55%, transparent);
+  --lay-line-strong: color-mix(in srgb, var(--lay-line) 72%, var(--lay-ink));
+  --lay-accent-line: color-mix(in srgb, var(--lay-accent) 38%, transparent);
+  --lay-accent-wash: color-mix(in srgb, var(--lay-accent) 8%, transparent);
+  --lay-paper-deep: color-mix(in srgb, var(--lay-paper) 88%, var(--lay-ink));
+  --lay-grid: color-mix(in srgb, var(--lay-ink) 3%, transparent);
+  --lay-code-bg: color-mix(in srgb, var(--lay-ink) 6%, transparent);
+}
+
+.lay-page--manual .lay-sidebar {
+  border-top: 3px solid var(--lay-accent);
+  padding-right: 16px;
+}
+.lay-page--manual .lay-sidebar h1 { font-size: 0.95rem; letter-spacing: 0.04em; margin-top: 0.5rem; }
+.lay-page--manual .lay-sidebar li a { font-size: 0.83rem; }
+.lay-page--manual .lay-toc { border-top-color: var(--lay-line-strong); }
+.lay-page--manual .lay-toc-live #toc {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+.lay-page--manual .lay-toc-live table,
+.lay-page--manual .lay-toc-live td { border: 0; margin: 0; padding: 0; background: transparent; }
+/* wdpr 的 TOC 结构：#toc-action-bar + .title + #toc-list > div */
+.lay-page--manual .lay-toc-live #toc-action-bar,
+.lay-page--manual .lay-toc-live #toc .title { display: none; }
+.lay-page--manual .lay-toc-live #toc-list > div { border-bottom: 1px solid var(--lay-line-soft); }
+.lay-page--manual .lay-toc-live #toc-list > div a {
+  display: block;
+  padding: 7px 2px;
+  font-size: 0.78rem;
+  border-bottom: 0;
+  color: var(--lay-muted);
+}
+.lay-page--manual .lay-toc-live #toc-list > div a:hover { color: var(--lay-ink); }
+.lay-page--manual .lay-prose > h2 { font-size: 1.18rem; }
+
+@media (max-width: 1100px) {
+  .lay-page--manual .lay-toc { grid-column: 1 / -1; border-top: 1px solid var(--lay-line); padding-top: 12px; }
+  .lay-page--manual .lay-toc-live #toc-list { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+  .lay-page--manual .lay-toc-live #toc-list > div { border-bottom: 0; }
+}

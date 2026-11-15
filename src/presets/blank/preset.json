@@ -1,0 +1,30 @@
+{
+  "id": "blank",
+  "name": "空白画布",
+  "description": "最小外壳与可见网格，用于从零开始设计版式。",
+  "tags": ["blank", "canvas", "starter"],
+  "regions": ["topbar", "content", "footer"],
+  "responsive": { "desktop": "fluid", "tablet": "fluid", "mobile": "stacked" },
+  "tokens": {
+    "brand": "CANVAS",
+    "pageTitle": "从空白开始",
+    "tagline": "新画布",
+    "contentWidth": "1100px",
+    "gutter": "28px",
+    "paper": "#fbfaf6",
+    "surface": "#ffffff",
+    "ink": "#26282c",
+    "muted": "#5f6368",
+    "line": "#ddd6c8",
+    "accent": "#3a4a5a",
+    "radius": "0px",
+    "fontSans": "\"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+    "fontSerif": "Georgia, \"Songti SC\", serif",
+    "lineHeight": "1.7"
+  },
+  "files": {
+    "page.ftml": "page.ftml",
+    "layout.css": "layout.css",
+    "notes.md": "notes.md"
+  }
+}

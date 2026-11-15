@@ -1,0 +1,43 @@
+/* ---- 最小修改 1：topbar ---- */
+#top-bar {
+  background: #f7f4ec;
+  border-bottom: 2px solid #8a1c1c;
+}
+#top-bar .top-bar ul li a {
+  color: #5b4636;
+  letter-spacing: 0.08em;
+}
+#top-bar .top-bar ul li a:hover {
+  color: #8a1c1c;
+  background: #efe9dc;
+}
+
+/* ---- 最小修改 2：sidebar ---- */
+#side-bar .side-block {
+  border-radius: 0;
+  border: 1px solid #c9c1b2;
+  box-shadow: none;
+  background: #fffdf8;
+}
+#side-bar .heading {
+  color: #5b4636;
+  border-bottom-color: #d9d2c3;
+}
+#side-bar div.menu-item a {
+  color: #2d5a7e;
+}
+
+/* ---- 最小修改 3：正文阅读栏 ---- */
+#page-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+  line-height: 1.75;
+}
+
+.sigma-note {
+  border-left: 4px solid #8a1c1c;
+  background: #fff4f4;
+  padding: 0.85rem 1rem;
+  margin: 1.4rem 0;
+}

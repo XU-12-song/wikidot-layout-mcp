@@ -1,0 +1,85 @@
+[[div class="lay-page lay-page--manual"]]
+[[div class="lay-topbar lay-region lay-region-topbar"]]
+[[span class="lay-brand"]]{{brand}}[[/span]]
+[[div class="lay-nav"]]
+[[span class="lay-nav-item"]][[[manual|手册]]][[/span]]
+[[span class="lay-nav-item"]][[[manual/appendices|附录]]][[/span]]
+[[span class="lay-nav-item"]][[[manual/contact|联系]]][[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--toc"]]
+[[div class="lay-sidebar lay-region lay-region-sidebar"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ 章节
+
+* [[[manual/overview|概览]]]
+* [[[manual/protocol|协议]]]
+* [[[manual/flow|流程]]]
+* [[[manual/audit|审计]]]
+
+[[/div]]
+
+[[div class="lay-main lay-region lay-region-content"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ {{pageTitle}}
+
+[[div class="lay-lede"]]
+一份需要频繁跳读的文档：左侧是稳定的章节结构，右侧提供当前页的快速定位。
+[[/div]]
+
+[[div class="lay-prose"]]
+
+++ 适用范围
+
+本手册适用于需要跨团队协作的运行流程。所有步骤都应留下可审计的记录。
+
+++ 角色与职责
+
+[[div class="lay-callout"]]
+[[div class="lay-callout-title"]]
+原则
+[[/div]]
+先记录，再执行；先确认，再回滚。任何“临时跳过”的决定都必须写入变更记录。
+[[/div]]
+
+++ 标准流程
+
+1. 提交意图说明。
+2. 双人复核关键参数。
+3. 执行并观察至少一个完整周期。
+4. 归档结果与异常。
+
+++ 异常处理
+
+若观察窗口内出现不可恢复错误，立即停止并保留现场。不要用重新执行来掩盖第一次失败。
+
+++ 复盘
+
+复盘只讨论系统与流程，不评价个人。输出三项：事实、原因、改进。
+
+[[/div]]
+[[/div]]
+
+[[div class="lay-toc lay-region lay-region-toc"]]
+[[div class="lay-kicker"]]
+本页
+[[/div]]
+[[div class="lay-toc-live"]]
+[[toc]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-footer lay-region lay-region-footer"]]
+[[span class="lay-footer-mark"]]{{brand}}[[/span]]
+[[span]]三栏手册版式 · docs-toc[[/span]]
+[[span]]右栏目录随视口滚动[[/span]]
+[[/div]]
+[[/div]]

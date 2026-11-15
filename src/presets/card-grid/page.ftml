@@ -1,0 +1,125 @@
+[[div class="lay-page lay-page--cards"]]
+[[div class="lay-topbar lay-region lay-region-topbar"]]
+[[span class="lay-brand"]]{{brand}}[[/span]]
+[[div class="lay-nav"]]
+[[span class="lay-nav-item"]][[[index|索引]]][[/span]]
+[[span class="lay-nav-item"]][[[topics|专题]]][[/span]]
+[[span class="lay-nav-item"]][[[search|检索]]][[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--full lay-region lay-region-hero"]]
+[[div class="lay-hero"]]
+[[div class="lay-hero-copy"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ {{pageTitle}}
+
+[[div class="lay-lede"]]
+把散落的内容整理成可扫描的入口。卡片只承载一个意图：让人知道下一步去哪里。
+[[/div]]
+
+[[div class="lay-hero-actions"]]
+[[span class="lay-button"]][[[start|浏览全部]]][[/span]]
+[[span class="lay-button lay-button--ghost"]][[[about|关于索引]]][[/span]]
+[[/div]]
+[[/div]]
+[[div class="lay-hero-aside"]]
+[[div class="lay-hero-stat"]]
+[[span class="lay-hero-num"]]08[[/span]]
+[[span class="lay-hero-label"]]个主题入口[[/span]]
+[[/div]]
+[[div class="lay-hero-stat"]]
+[[span class="lay-hero-num"]]1993[[/span]]
+[[span class="lay-hero-label"]]起始归档年份[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--full lay-region lay-region-content"]]
+[[div class="lay-card-grid"]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+01 / 入门
+[[/div]]
+
++ 新读者路径
+
+从最少的上下文开始，先读三篇，再决定深入方向。
+
+[[span class="lay-card-link"]][[[start/readers|打开路径]]][[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+02 / 写作
+[[/div]]
+
++ 写作与格式
+
+语法、版式、评审流程与常见错误。
+
+[[span class="lay-card-link"]][[[guide/writing|打开指南]]][[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+03 / 设定
+[[/div]]
+
++ 世界设定索引
+
+按年代、组织与地点组织的设定条目。
+
+[[span class="lay-card-link"]][[[lore|进入索引]]][[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+04 / 组件
+[[/div]]
+
++ 可复用组件
+
+信息面板、折叠块、标签页与评分区域。
+
+[[span class="lay-card-link"]][[[components|查看组件]]][[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+05 / 主题
+[[/div]]
+
++ 主题样本
+
+观察配色、字体与边框如何共同决定气质。
+
+[[span class="lay-card-link"]][[[themes|浏览主题]]][[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+06 / 归档
+[[/div]]
+
++ 全部条目
+
+按时间与评分排序的完整清单。
+
+[[span class="lay-card-link"]][[[archive|打开归档]]][[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+[[div class="lay-footer lay-region lay-region-footer"]]
+[[span class="lay-footer-mark"]]{{brand}}[[/span]]
+[[span]]卡片网格首页 · card-grid[[/span]]
+[[span]]自适应 1 / 2 / 3–4 栏[[/span]]
+[[/div]]
+[[/div]]

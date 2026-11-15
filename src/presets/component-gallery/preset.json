@@ -1,0 +1,31 @@
+{
+  "id": "component-gallery",
+  "name": "组件/主题展示页",
+  "description": "并排展示组件、色板与代码片段，适合主题说明和设计系统文档。",
+  "tags": ["component", "gallery", "theme", "design-system"],
+  "regions": ["topbar", "content", "footer"],
+  "responsive": { "desktop": "3-column-gallery", "tablet": "2-column-gallery", "mobile": "1-column" },
+  "tokens": {
+    "brand": "SYSTEM / SPECIMEN",
+    "pageTitle": "组件与主题样本",
+    "tagline": "设计系统",
+    "contentWidth": "1180px",
+    "cardMin": "220px",
+    "gutter": "24px",
+    "paper": "#f3f0e7",
+    "surface": "#fffdf8",
+    "ink": "#20252b",
+    "muted": "#59616a",
+    "line": "#d4ccbc",
+    "accent": "#3d6b5c",
+    "radius": "0px",
+    "fontSans": "\"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+    "fontSerif": "Georgia, \"Songti SC\", serif",
+    "lineHeight": "1.7"
+  },
+  "files": {
+    "page.ftml": "page.ftml",
+    "layout.css": "layout.css",
+    "notes.md": "notes.md"
+  }
+}

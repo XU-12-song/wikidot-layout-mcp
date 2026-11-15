@@ -1,0 +1,41 @@
+@import url("../_shared/base.css");
+
+:root {
+  --lay-content-width: {{contentWidth}};
+  --lay-gutter: {{gutter}};
+  --lay-paper: {{paper}};
+  --lay-surface: {{surface}};
+  --lay-ink: {{ink}};
+  --lay-muted: {{muted}};
+  --lay-line: {{line}};
+  --lay-accent: {{accent}};
+  --lay-radius: {{radius}};
+  --lay-font-sans: {{fontSans}};
+  --lay-font-serif: {{fontSerif}};
+  --lay-line-height: {{lineHeight}};
+  --lay-line-soft: color-mix(in srgb, var(--lay-line) 55%, transparent);
+  --lay-line-strong: color-mix(in srgb, var(--lay-line) 70%, var(--lay-ink));
+  --lay-accent-line: color-mix(in srgb, var(--lay-accent) 38%, transparent);
+  --lay-accent-wash: color-mix(in srgb, var(--lay-accent) 7%, transparent);
+  --lay-paper-deep: color-mix(in srgb, var(--lay-paper) 88%, var(--lay-ink));
+  --lay-grid: color-mix(in srgb, var(--lay-ink) 3.5%, transparent);
+  --lay-code-bg: color-mix(in srgb, var(--lay-ink) 6%, transparent);
+}
+
+.lay-page--article .lay-shell { padding-top: 64px; }
+.lay-header { border-bottom: 2px solid var(--lay-ink); padding-bottom: 22px; margin-bottom: 18px; }
+.lay-header h1 { font-family: var(--lay-font-serif); font-weight: 600; letter-spacing: -0.01em; font-size: clamp(2rem, 4.4vw, 3rem); max-width: 20ch; }
+.lay-prose > p:first-of-type::first-letter { font-size: 3.2em; }
+.lay-annotation {
+  display: inline;
+  background: var(--lay-accent-wash);
+  border-bottom: 1px solid var(--lay-accent-line);
+  padding: 0 2px;
+  font-size: 0.94em;
+}
+.lay-page--article .lay-footer { border-top: 2px solid var(--lay-ink); }
+
+@media (max-width: 760px) {
+  .lay-page--article .lay-shell { padding-top: 34px; }
+  .lay-header h1 { font-size: clamp(1.7rem, 8vw, 2.2rem); }
+}

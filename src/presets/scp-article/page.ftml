@@ -1,0 +1,107 @@
+[[div class="lay-page lay-page--scp"]]
+[[div class="lay-topbar lay-region lay-region-topbar"]]
+[[span class="lay-brand"]]{{brand}}[[/span]]
+[[div class="lay-nav"]]
+[[span class="lay-nav-item"]][[[scp-series|系列]]][[/span]]
+[[span class="lay-nav-item"]][[[scp-series-2|系列 II]]][[/span]]
+[[span class="lay-nav-item"]][[[guide-hub|指南]]][[/span]]
+[[span class="lay-nav-item"]][[[forum|论坛]]][[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--single lay-region lay-region-content"]]
+[[div class="lay-main"]]
+
+[[div class="lay-scp-head"]]
+[[div class="lay-scp-title"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ {{pageTitle}}
+
+[[div class="lay-meta"]]
+[[span]]项目等级：Euclid[[/span]]
+[[span]]收容区域：Site-CN-██[[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-info-panel"]]
+[[div class="lay-info-head"]]
+项目档案
+[[/div]]
+[[div class="lay-info-row"]]
+[[span class="lay-info-key"]]项目编号[[/span]][[span class="lay-info-val"]]SCP-XXXX-CN[[/span]]
+[[/div]]
+[[div class="lay-info-row"]]
+[[span class="lay-info-key"]]等级[[/span]][[span class="lay-info-val"]]Euclid[[/span]]
+[[/div]]
+[[div class="lay-info-row"]]
+[[span class="lay-info-key"]]负责人[[/span]][[span class="lay-info-val"]]Dr. █████[[/span]]
+[[/div]]
+[[div class="lay-info-row"]]
+[[span class="lay-info-key"]]状态[[/span]][[span class="lay-info-val"]]持续观测[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-prose lay-scp-body"]]
+
+++ 特别收容程序
+
+项目收容于 Site-CN-██ 的地下三层标准储存单元。除实验需要外，储存单元应保持关闭，外部以两道独立权限锁控制。
+
+所有接触人员须完成 III 级心理评估。若出现持续性感知偏差，应立即撤出并接受隔离观察。
+
+[[div class="lay-callout"]]
+[[div class="lay-callout-title"]]
+权限提示
+[[/div]]
+本文件的部分段落仅对 3/XXXX 级人员开放。
+[[/div]]
+
+++ 描述
+
+项目的外观、行为与异常效应在此处描述。保持陈述客观，避免把推测写成事实。
+
+[[div class="lay-figure"]]
+[[div class="lay-figure-art"]]
+图 1 · 收容单元平面示意
+[[/div]]
+[[div class="lay-figure-caption"]]
+图 1：储存单元与观测走廊的相对位置。
+[[/div]]
+[[/div]]
+
+++ 附录
+
+[[collapsible show="展开：实验记录 XXXX-01" hide="收起：实验记录 XXXX-01"]]
+
+**日期：** 20██-██-██
+
+**对象：** D-████
+
+**结果：** 对象在暴露后 12 分钟内报告听觉异常，随后恢复。未观察到持续性影响。
+
+[[/collapsible]]
+
+++ 评分
+
+[[div class="lay-rating"]]
+[[span class="lay-rating-label"]]页面评分[[/span]]
+[[span class="lay-rating-score"]]+128[[/span]]
+[[span class="lay-rating-count"]]共 43 人评分[[/span]]
+[[/div]]
+
+[!-- 部署到正式站点时，将上方手工评分块替换为 [[module Rate]]。 --]
+
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-footer lay-region lay-region-footer"]]
+[[span class="lay-footer-mark"]]{{brand}}[[/span]]
+[[span]]SCP 条目版式 · scp-article[[/span]]
+[[span]]档案式信息面板与评分槽位[[/span]]
+[[/div]]
+[[/div]]

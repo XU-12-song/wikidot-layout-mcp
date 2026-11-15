@@ -1,0 +1,30 @@
+{
+  "id": "article-single",
+  "name": "单栏文章页",
+  "description": "安静的单栏编辑版式，适合随笔、公告与独立文章。",
+  "tags": ["article", "single-column", "editorial"],
+  "regions": ["topbar", "content", "footer"],
+  "responsive": { "desktop": "single-column", "tablet": "single-column", "mobile": "stacked" },
+  "tokens": {
+    "brand": "FIELD NOTES",
+    "pageTitle": "一篇值得慢慢读的文章",
+    "tagline": "编辑部 / 2026",
+    "contentWidth": "760px",
+    "gutter": "28px",
+    "paper": "#f7f4ec",
+    "surface": "#fffdf8",
+    "ink": "#22262b",
+    "muted": "#5c616a",
+    "line": "#d9d2c3",
+    "accent": "#7a3e2f",
+    "radius": "0px",
+    "fontSans": "\"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+    "fontSerif": "Georgia, \"Songti SC\", \"Noto Serif SC\", serif",
+    "lineHeight": "1.78"
+  },
+  "files": {
+    "page.ftml": "page.ftml",
+    "layout.css": "layout.css",
+    "notes.md": "notes.md"
+  }
+}

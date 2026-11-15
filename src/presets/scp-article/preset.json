@@ -1,0 +1,30 @@
+{
+  "id": "scp-article",
+  "name": "SCP 条目页",
+  "description": "SCP 文档结构：标题区、项目信息面板、评分区与正文。",
+  "tags": ["scp", "article", "dossier", "foundation"],
+  "regions": ["topbar", "content", "footer"],
+  "responsive": { "desktop": "single-column-with-panel", "tablet": "single-column-with-panel", "mobile": "stacked" },
+  "tokens": {
+    "brand": "SCP FOUNDATION / CN",
+    "pageTitle": "SCP-XXXX-CN — 样本标题",
+    "tagline": "SCP-XXXX-CN",
+    "contentWidth": "820px",
+    "gutter": "24px",
+    "paper": "#f6f3ea",
+    "surface": "#ffffff",
+    "ink": "#1d2329",
+    "muted": "#59616a",
+    "line": "#cfc6b4",
+    "accent": "#8a1c1c",
+    "radius": "0px",
+    "fontSans": "\"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+    "fontSerif": "Georgia, \"Songti SC\", \"Noto Serif SC\", serif",
+    "lineHeight": "1.76"
+  },
+  "files": {
+    "page.ftml": "page.ftml",
+    "layout.css": "layout.css",
+    "notes.md": "notes.md"
+  }
+}

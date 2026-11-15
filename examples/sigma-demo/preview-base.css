@@ -1,0 +1,7 @@
+/*
+ * 仅用于 headless 预览环境：Chromium 未继承系统代理，侧栏远程图标会加载失败
+ * 并显示 alt 文本。隐藏图标以便专注 topbar / sidebar 的版式对比。
+ */
+#side-bar .menu-item img {
+  display: none;
+}

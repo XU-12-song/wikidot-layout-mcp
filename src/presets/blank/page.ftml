@@ -1,0 +1,55 @@
+[[div class="lay-page lay-page--blank"]]
+[[div class="lay-topbar lay-region lay-region-topbar"]]
+[[span class="lay-brand"]]{{brand}}[[/span]]
+[[div class="lay-nav"]]
+[[span class="lay-nav-item"]][[[canvas|画布]]][[/span]]
+[[span class="lay-nav-item"]][[[canvas/docs|说明]]][[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--full lay-region lay-region-content"]]
+[[div class="lay-main"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ {{pageTitle}}
+
+[[div class="lay-lede"]]
+最小可用外壳：顶栏、正文容器与页脚。从这里开始添加区域、组件与样式。
+[[/div]]
+
+[[div_ class="lay-blank-grid"]]
+
+[[div class="lay-blank-copy"]]
+
+++ 画布
+
+把内容放进这个容器，或删除它，重新定义网格。
+
+[[span class="lay-badge"]]1100px[[/span]]
+[[span class="lay-badge"]]24 / 28px gutter[[/span]]
+[[span class="lay-badge"]]1440 · 1024 · 390[[/span]]
+
+[[/div]]
+
+[[/div]]
+
+[[div class="lay-prose"]]
+
+++ 建议顺序
+
+1. 先定内容分区，再定栏宽。
+2. 只用边框、表面色与留白建立层级。
+3. 在三个视口各截一张图，再决定是否增加样式。
+
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-footer lay-region lay-region-footer"]]
+[[span class="lay-footer-mark"]]{{brand}}[[/span]]
+[[span]]空白画布 · blank[[/span]]
+[[span]]从这里开始[[/span]]
+[[/div]]
+[[/div]]

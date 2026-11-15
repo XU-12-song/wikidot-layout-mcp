@@ -1,0 +1,63 @@
+@import url("../_shared/base.css");
+
+:root {
+  --lay-reading-width: {{readingWidth}};
+  --lay-gutter: {{gutter}};
+  --lay-paper: {{paper}};
+  --lay-surface: {{surface}};
+  --lay-ink: {{ink}};
+  --lay-muted: {{muted}};
+  --lay-line: {{line}};
+  --lay-accent: {{accent}};
+  --lay-radius: {{radius}};
+  --lay-font-sans: {{fontSans}};
+  --lay-font-serif: {{fontSerif}};
+  --lay-line-height: {{lineHeight}};
+  --lay-shell-max: 900px;
+  --lay-line-soft: color-mix(in srgb, var(--lay-line) 55%, transparent);
+  --lay-line-strong: color-mix(in srgb, var(--lay-line) 72%, var(--lay-ink));
+  --lay-accent-line: color-mix(in srgb, var(--lay-accent) 38%, transparent);
+  --lay-accent-wash: color-mix(in srgb, var(--lay-accent) 7%, transparent);
+  --lay-paper-deep: color-mix(in srgb, var(--lay-paper) 88%, var(--lay-ink));
+  --lay-grid: color-mix(in srgb, var(--lay-ink) 3%, transparent);
+  --lay-code-bg: color-mix(in srgb, var(--lay-ink) 6%, transparent);
+}
+
+.lay-page--reading .lay-shell { padding-top: 68px; }
+.lay-page--reading .lay-main > h1 {
+  font-family: var(--lay-font-serif);
+  font-weight: 600;
+  font-size: clamp(2rem, 4.4vw, 2.9rem);
+  letter-spacing: -0.015em;
+  max-width: 22ch;
+  margin-bottom: 0.5rem;
+}
+.lay-reading-body { font-family: var(--lay-font-serif); font-size: 1.04rem; max-width: var(--lay-reading-width); }
+.lay-reading-body > h2 {
+  font-family: var(--lay-font-sans);
+  font-size: 0.76rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--lay-muted);
+  border-top: 1px solid var(--lay-line);
+  padding-top: 0.9rem;
+  margin-top: 2.8rem;
+}
+.lay-reading-body > p:first-of-type::first-letter { font-size: 3.4em; }
+.lay-note-strip {
+  border-left: 3px solid var(--lay-accent);
+  background: var(--lay-surface);
+  padding: 10px 14px;
+  margin: 1.6rem 0;
+  font-family: var(--lay-font-sans);
+  font-size: 0.84rem;
+  color: var(--lay-muted);
+}
+.lay-reading-footnote ol { padding-left: 1.2rem; }
+.lay-reading-footnote li { margin: 0.35rem 0; }
+
+@media (max-width: 760px) {
+  .lay-page--reading .lay-shell { padding-top: 38px; }
+  .lay-reading-body { font-size: 1rem; }
+  .lay-reading-body > h2 { margin-top: 2.2rem; }
+}

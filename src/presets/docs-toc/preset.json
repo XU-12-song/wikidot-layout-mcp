@@ -1,0 +1,32 @@
+{
+  "id": "docs-toc",
+  "name": "左导航 + 右侧目录",
+  "description": "三栏文档版式：左侧章节导航、中间正文、右侧页内目录。",
+  "tags": ["docs", "sidebar", "toc", "longform"],
+  "regions": ["topbar", "sidebar", "content", "toc", "footer"],
+  "responsive": { "desktop": "three-column", "tablet": "two-column", "mobile": "stacked" },
+  "tokens": {
+    "brand": "MANUAL / 04",
+    "pageTitle": "协议与流程",
+    "tagline": "运行手册",
+    "contentWidth": "740px",
+    "sidebarWidth": "220px",
+    "tocWidth": "210px",
+    "gutter": "26px",
+    "paper": "#f2efe6",
+    "surface": "#fbf9f2",
+    "ink": "#1f242a",
+    "muted": "#586069",
+    "line": "#d3cbbb",
+    "accent": "#4a5d3a",
+    "radius": "0px",
+    "fontSans": "\"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+    "fontSerif": "Georgia, \"Songti SC\", serif",
+    "lineHeight": "1.76"
+  },
+  "files": {
+    "page.ftml": "page.ftml",
+    "layout.css": "layout.css",
+    "notes.md": "notes.md"
+  }
+}

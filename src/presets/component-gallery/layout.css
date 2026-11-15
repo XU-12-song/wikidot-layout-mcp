@@ -1,0 +1,47 @@
+@import url("../_shared/base.css");
+
+:root {
+  --lay-content-width: {{contentWidth}};
+  --lay-card-min: {{cardMin}};
+  --lay-gutter: {{gutter}};
+  --lay-paper: {{paper}};
+  --lay-surface: {{surface}};
+  --lay-ink: {{ink}};
+  --lay-muted: {{muted}};
+  --lay-line: {{line}};
+  --lay-accent: {{accent}};
+  --lay-radius: {{radius}};
+  --lay-font-sans: {{fontSans}};
+  --lay-font-serif: {{fontSerif}};
+  --lay-line-height: {{lineHeight}};
+  --lay-shell-max: 1240px;
+  --lay-line-soft: color-mix(in srgb, var(--lay-line) 55%, transparent);
+  --lay-line-strong: color-mix(in srgb, var(--lay-line) 72%, var(--lay-ink));
+  --lay-accent-line: color-mix(in srgb, var(--lay-accent) 38%, transparent);
+  --lay-accent-wash: color-mix(in srgb, var(--lay-accent) 8%, transparent);
+  --lay-paper-deep: color-mix(in srgb, var(--lay-paper) 88%, var(--lay-ink));
+  --lay-grid: color-mix(in srgb, var(--lay-ink) 3%, transparent);
+  --lay-code-bg: color-mix(in srgb, var(--lay-ink) 6%, transparent);
+}
+
+.lay-page--specimen .lay-shell { max-width: var(--lay-content-width); }
+.lay-specimen-head { max-width: 62ch; border-bottom: 2px solid var(--lay-ink); padding-bottom: 24px; }
+.lay-specimen-head h1 { font-family: var(--lay-font-serif); font-size: clamp(2rem, 4.5vw, 2.9rem); }
+
+.lay-page--specimen .lay-swatch-color { height: 110px; }
+.lay-page--specimen .lay-swatch-body h1 { font-size: 1rem; margin: 0 0 6px; }
+.lay-page--specimen .lay-card { gap: 12px; min-height: 0; }
+.lay-page--specimen .lay-card h1 { font-size: 1rem; margin: 0; }
+.lay-page--specimen .lay-card .lay-button { margin: 2px 6px 2px 0; font-size: 0.72rem; padding: 7px 12px; }
+.lay-page--specimen .lay-card .lay-button a { color: inherit; border-bottom: 0; }
+.lay-page--specimen .lay-badge { margin-right: 6px; }
+.lay-page--specimen .lay-callout { margin: 0; }
+.lay-page--specimen .lay-card-grid { margin-bottom: 6px; }
+
+.lay-code-sample { max-width: 860px; }
+.lay-code-sample pre { font-size: 0.82rem; border-left: 4px solid var(--lay-accent); }
+
+@media (max-width: 760px) {
+  .lay-page--specimen .lay-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lay-page--specimen .lay-swatch-color { height: 84px; }
+}

@@ -1,0 +1,64 @@
+[[div class="lay-page lay-page--article"]]
+[[div class="lay-topbar lay-region lay-region-topbar"]]
+[[span class="lay-brand"]]{{brand}}[[/span]]
+[[div class="lay-nav"]]
+[[span class="lay-nav-item"]][[[start|文章]]][[/span]]
+[[span class="lay-nav-item"]][[[archive|归档]]][[/span]]
+[[span class="lay-nav-item"]][[[about|关于]]][[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--single lay-region lay-region-content"]]
+[[div class="lay-main"]]
+[[div class="lay-header"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ {{pageTitle}}
+
+[[/div]]
+
+[[div class="lay-meta"]]
+[[span]]作者：编辑部[[/span]]
+[[span]]阅读时间：8 分钟[[/span]]
+[[span]]修订：第 3 版[[/span]]
+[[/div]]
+
+[[div class="lay-prose"]]
+
+++ 开场
+
+这是一段用于观察行高、段距与首字下沉的正文。单栏版式把注意力收束在一条清晰的阅读轴上，栏目宽度由 token `contentWidth` 控制，适合中短篇内容。
+
+[[span_ class="lay-annotation"]]行内标记示例：`span_` 不会额外包裹段落，适合在正文中插入强调或注记。[[/span]]
+
+++ 方法
+
+排版不是装饰。先确定阅读顺序，再用边框、留白与字号建立层级。这个原型刻意不使用投影和圆角浮层，层级只来自线、面与字重。
+
+[[div class="lay-callout"]]
+[[div class="lay-callout-title"]]
+编辑注
+[[/div]]
+当内容超过约 70 个字符一行时，回读成本会明显上升。优先缩短行宽，而不是缩小字号。
+[[/div]]
+
+++ 结语
+
+把复杂留给内容，把克制留给版式。
+
+[[div class="lay-rule"]]
+END
+[[/div]]
+
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-footer lay-region lay-region-footer"]]
+[[span class="lay-footer-mark"]]{{brand}}[[/span]]
+[[span]]单栏文章版式 · article-single[[/span]]
+[[span]]以边框与留白构建层级[[/span]]
+[[/div]]
+[[/div]]

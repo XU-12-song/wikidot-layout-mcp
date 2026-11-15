@@ -1,0 +1,175 @@
+[[div class="lay-page lay-page--specimen"]]
+[[div class="lay-topbar lay-region lay-region-topbar"]]
+[[span class="lay-brand"]]{{brand}}[[/span]]
+[[div class="lay-nav"]]
+[[span class="lay-nav-item"]][[[system/components|组件]]][[/span]]
+[[span class="lay-nav-item"]][[[system/themes|主题]]][[/span]]
+[[span class="lay-nav-item"]][[[system/tokens|Token]]][[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--full lay-region lay-region-content"]]
+[[div class="lay-specimen-head"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ {{pageTitle}}
+
+[[div class="lay-lede"]]
+每个样本只回答一个问题：它在真实页面里看起来如何，边界在哪里，什么时候不该使用。
+[[/div]]
+[[/div]]
+
+[[div class="lay-gallery"]]
+
+[[div class="lay-swatch"]]
+[[div class="lay-swatch-color" style="background:#20252b"]]
+[[/div]]
+[[div class="lay-swatch-body"]]
+
++ 墨色 Ink
+
+主文本与结构线。避免用于大面积背景。
+
+[[/div]]
+[[/div]]
+
+[[div class="lay-swatch"]]
+[[div class="lay-swatch-color" style="background:#3d6b5c"]]
+[[/div]]
+[[div class="lay-swatch-body"]]
+
++ 强调 Accent
+
+链接、关键数字与选中态。只承担一种语义。
+
+[[/div]]
+[[/div]]
+
+[[div class="lay-swatch"]]
+[[div class="lay-swatch-color" style="background:#d4ccbc"]]
+[[/div]]
+[[div class="lay-swatch-body"]]
+
++ 结构线 Line
+
+1px 分隔与容器边界。不要用它替代留白。
+
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+[[div class="lay-rule"]]
+COMPONENTS
+[[/div]]
+
+[[div class="lay-card-grid"]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+按钮
+[[/div]]
+
++ 主操作
+
+[[span class="lay-button"]][[[system/actions|执行操作]]][[/span]]
+[[span class="lay-button lay-button--ghost"]][[[system/actions|次要操作]]][[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+徽标
+[[/div]]
+
++ 状态标记
+
+[[span class="lay-badge"]]Draft[[/span]]
+[[span class="lay-badge"]]Review[[/span]]
+[[span class="lay-badge"]]Stable[[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+提示框
+[[/div]]
+
++ 边界说明
+
+[[div class="lay-callout"]]
+提示框用于补充上下文，不用于放置主要结论。
+[[/div]]
+[[/div]]
+
+[[/div]]
+
+[[div class="lay-rule"]]
+CODE
+[[/div]]
+
+[[div class="lay-code-sample"]]
+
++ 主题变量
+
+[[code type="css"]]
+:root {
+  --lay-content-width: {{contentWidth}};
+  --lay-accent: {{accent}};
+  --lay-line: {{line}};
+}
+[[/code]]
+
+[[/div]]
+
+[[div class="lay-rule"]]
+THEMES
+[[/div]]
+
+[[div class="lay-card-grid"]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+主题 A
+[[/div]]
+
++ 档案纸
+
+低对比纸色、深红强调，适合叙事与档案。
+
+[[span class="lay-card-link"]][[[theme:bedrock|查看样本]]][[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+主题 B
+[[/div]]
+
++ 技术手册
+
+冷灰底色、蓝绿强调，适合规范与流程。
+
+[[span class="lay-card-link"]][[[theme:basalt|查看样本]]][[/span]]
+[[/div]]
+
+[[div class="lay-card"]]
+[[div class="lay-card-kicker"]]
+主题 C
+[[/div]]
+
++ 高对比
+
+近黑结构线、纸白表面，适合短篇与公告。
+
+[[span class="lay-card-link"]][[[theme:black-highlighter-theme|查看样本]]][[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+[[div class="lay-footer lay-region lay-region-footer"]]
+[[span class="lay-footer-mark"]]{{brand}}[[/span]]
+[[span]]组件/主题展示 · component-gallery[[/span]]
+[[span]]样本优先，说明从简[[/span]]
+[[/div]]
+[[/div]]

@@ -1,0 +1,30 @@
+{
+  "id": "longform-reading",
+  "name": "长文阅读",
+  "description": "窄栏、衬线正文与克制的元信息，适合长篇叙事与深度阅读。",
+  "tags": ["reading", "longform", "serif", "narrative"],
+  "regions": ["topbar", "content", "footer"],
+  "responsive": { "desktop": "narrow-reading-column", "tablet": "narrow-reading-column", "mobile": "stacked" },
+  "tokens": {
+    "brand": "THE LONG READ",
+    "pageTitle": "在噪声之外阅读",
+    "tagline": "长篇 / 非虚构",
+    "readingWidth": "680px",
+    "gutter": "26px",
+    "paper": "#f8f5ed",
+    "surface": "#fffdf7",
+    "ink": "#24262a",
+    "muted": "#5d5f63",
+    "line": "#d8d0c0",
+    "accent": "#5b4636",
+    "radius": "0px",
+    "fontSans": "\"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+    "fontSerif": "Georgia, \"Songti SC\", \"Noto Serif SC\", serif",
+    "lineHeight": "1.85"
+  },
+  "files": {
+    "page.ftml": "page.ftml",
+    "layout.css": "layout.css",
+    "notes.md": "notes.md"
+  }
+}

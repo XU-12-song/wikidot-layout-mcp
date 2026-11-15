@@ -1,0 +1,36 @@
+@import url("../_shared/base.css");
+
+:root {
+  --lay-content-width: {{contentWidth}};
+  --lay-gutter: {{gutter}};
+  --lay-paper: {{paper}};
+  --lay-surface: {{surface}};
+  --lay-ink: {{ink}};
+  --lay-muted: {{muted}};
+  --lay-line: {{line}};
+  --lay-accent: {{accent}};
+  --lay-radius: {{radius}};
+  --lay-font-sans: {{fontSans}};
+  --lay-font-serif: {{fontSerif}};
+  --lay-line-height: {{lineHeight}};
+  --lay-shell-max: 1200px;
+  --lay-line-soft: color-mix(in srgb, var(--lay-line) 55%, transparent);
+  --lay-line-strong: color-mix(in srgb, var(--lay-line) 72%, var(--lay-ink));
+  --lay-accent-line: color-mix(in srgb, var(--lay-accent) 38%, transparent);
+  --lay-accent-wash: color-mix(in srgb, var(--lay-accent) 7%, transparent);
+  --lay-paper-deep: color-mix(in srgb, var(--lay-paper) 88%, var(--lay-ink));
+  --lay-grid: color-mix(in srgb, var(--lay-ink) 3%, transparent);
+  --lay-code-bg: color-mix(in srgb, var(--lay-ink) 6%, transparent);
+}
+
+.lay-page--blank .lay-shell { max-width: var(--lay-content-width); }
+.lay-page--blank .lay-main > h1 { font-family: var(--lay-font-serif); font-size: clamp(2rem, 4.4vw, 2.8rem); }
+.lay-blank-copy { max-width: 46ch; }
+.lay-blank-copy h2 { font-size: 1.1rem; margin-bottom: 8px; }
+.lay-blank-copy .lay-badge { margin: 4px 6px 0 0; }
+.lay-page--blank .lay-prose { margin-top: 34px; }
+
+@media (max-width: 760px) {
+  .lay-blank-grid { min-height: 46vh; padding: 24px; }
+  .lay-blank-copy h2 { font-size: 1rem; }
+}

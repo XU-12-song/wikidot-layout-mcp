@@ -1,0 +1,89 @@
+[[div class="lay-page lay-page--docs"]]
+[[div class="lay-topbar lay-region lay-region-topbar"]]
+[[span class="lay-brand"]]{{brand}}[[/span]]
+[[div class="lay-nav"]]
+[[span class="lay-nav-item"]][[[docs|文档]]][[/span]]
+[[span class="lay-nav-item"]][[[rules|规则]]][[/span]]
+[[span class="lay-nav-item"]][[[changelog|更新日志]]][[/span]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-shell lay-shell--sidebar"]]
+[[div class="lay-sidebar lay-region lay-region-sidebar"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ 目录
+
+* [[[docs/start|快速开始]]]
+* [[[docs/concepts|核心概念]]]
+* [[[docs/layout|版式与区域]]]
+* [[[docs/tokens|Token 参考]]]
+
+[[div class="lay-nav-group"]]
+
++ 进阶
+
+* [[[docs/include|Include 组织方式]]]
+* [[[docs/theme|主题覆盖]]]
+* [[[docs/publish|发布流程]]]
+
+[[/div]]
+[[/div]]
+
+[[div class="lay-main lay-region lay-region-content"]]
+[[div class="lay-kicker"]]
+{{tagline}}
+[[/div]]
+
++ {{pageTitle}}
+
+[[div class="lay-lede"]]
+这是一份两栏文档模板。左栏保持导航上下文，右栏专注阅读；在移动端自动堆叠为单列。
+[[/div]]
+
+[[div class="lay-prose"]]
+
+++ 快速开始
+
+1. 选择版式原型，复制 `page.ftml` 与 `layout.css`。
+2. 按需覆盖 token，例如把 `contentWidth` 调整为 `860px`。
+3. 用 `layout_render_preview` 渲染，再截图检查 1440 / 1024 / 390 三个宽度。
+4. 通过后再发布到站点。
+
+[[div class="lay-callout"]]
+[[div class="lay-callout-title"]]
+约定
+[[/div]]
+所有版式类名统一使用 `lay-` 前缀，避免与站点主题的规则冲突。
+[[/div]]
+
+++ 区域模型
+
+[[div class="lay-region-table"]]
+
+||~ 区域 ||~ 说明 ||~ 可否移除 ||
+|| topbar || 品牌与主导航 || 是 ||
+|| sidebar || 文档导航 || 是 ||
+|| content || 正文 || 否 ||
+|| footer || 版权与元信息 || 是 ||
+
+[[/div]]
+
+++ 折叠内容
+
+[[collapsible show="展开：命名约定" hide="收起：命名约定"]]
+导航项使用页面链接，不绑定具体站点。若需要图标，使用内联图片并限制高度。
+[[/collapsible]]
+
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="lay-footer lay-region lay-region-footer"]]
+[[span class="lay-footer-mark"]]{{brand}}[[/span]]
+[[span]]两栏文档版式 · docs-sidebar[[/span]]
+[[span]]区域可增删，栏宽可调[[/span]]
+[[/div]]
+[[/div]]

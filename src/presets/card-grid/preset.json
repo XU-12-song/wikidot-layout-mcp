@@ -1,0 +1,31 @@
+{
+  "id": "card-grid",
+  "name": "卡片网格首页",
+  "description": "适合站点首页、专题聚合页与内容入口：大标题 + 自适应卡片网格。",
+  "tags": ["home", "grid", "cards", "landing"],
+  "regions": ["topbar", "hero", "content", "footer"],
+  "responsive": { "desktop": "3-4-column-grid", "tablet": "2-column-grid", "mobile": "1-column" },
+  "tokens": {
+    "brand": "INDEX / COLLECTED",
+    "pageTitle": "从这里开始",
+    "tagline": "精选入口",
+    "contentWidth": "1180px",
+    "cardMin": "250px",
+    "gutter": "26px",
+    "paper": "#f5f1e7",
+    "surface": "#fffdf7",
+    "ink": "#22262b",
+    "muted": "#5a6067",
+    "line": "#d8cfbe",
+    "accent": "#a3512b",
+    "radius": "0px",
+    "fontSans": "\"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+    "fontSerif": "Georgia, \"Songti SC\", serif",
+    "lineHeight": "1.7"
+  },
+  "files": {
+    "page.ftml": "page.ftml",
+    "layout.css": "layout.css",
+    "notes.md": "notes.md"
+  }
+}

@@ -1,0 +1,53 @@
+@import url("../_shared/base.css");
+
+:root {
+  --lay-content-width: {{contentWidth}};
+  --lay-sidebar-width: {{sidebarWidth}};
+  --lay-gutter: {{gutter}};
+  --lay-paper: {{paper}};
+  --lay-surface: {{surface}};
+  --lay-ink: {{ink}};
+  --lay-muted: {{muted}};
+  --lay-line: {{line}};
+  --lay-accent: {{accent}};
+  --lay-radius: {{radius}};
+  --lay-font-sans: {{fontSans}};
+  --lay-font-serif: {{fontSerif}};
+  --lay-line-height: {{lineHeight}};
+  --lay-shell-max: 1180px;
+  --lay-line-soft: color-mix(in srgb, var(--lay-line) 55%, transparent);
+  --lay-line-strong: color-mix(in srgb, var(--lay-line) 72%, var(--lay-ink));
+  --lay-accent-line: color-mix(in srgb, var(--lay-accent) 38%, transparent);
+  --lay-accent-wash: color-mix(in srgb, var(--lay-accent) 8%, transparent);
+  --lay-paper-deep: color-mix(in srgb, var(--lay-paper) 88%, var(--lay-ink));
+  --lay-grid: color-mix(in srgb, var(--lay-ink) 3%, transparent);
+  --lay-code-bg: color-mix(in srgb, var(--lay-ink) 6%, transparent);
+}
+
+.lay-page--docs .lay-sidebar {
+  border-top: 3px solid var(--lay-accent);
+  padding-right: 18px;
+  border-right: 1px solid var(--lay-line);
+}
+.lay-page--docs .lay-sidebar h1 {
+  font-size: 1.15rem;
+  margin-top: 0.4rem;
+}
+.lay-page--docs .lay-sidebar ul { margin-bottom: 0.4rem; }
+.lay-page--docs .lay-sidebar li a { font-size: 0.84rem; }
+.lay-page--docs .lay-sidebar li a:hover { padding-left: 6px; }
+.lay-page--docs .lay-nav-group { border-top: 1px solid var(--lay-line); padding-top: 0.8rem; }
+.lay-page--docs .lay-main { padding-top: 6px; }
+.lay-page--docs .lay-prose > h2 { border-top: 0; padding-top: 0; margin-top: 1.8rem; }
+.lay-region-table table { font-size: 0.86rem; }
+.lay-region-table td:first-child { font-family: var(--lay-font-mono); white-space: nowrap; }
+
+@media (max-width: 760px) {
+  .lay-page--docs .lay-sidebar {
+    border-right: 0;
+    border-top: 1px solid var(--lay-line);
+    border-bottom: 1px solid var(--lay-line);
+    padding: 14px 0 10px;
+  }
+  .lay-page--docs .lay-sidebar + .lay-main { margin-top: 4px; }
+}
