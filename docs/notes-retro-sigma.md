@@ -96,15 +96,24 @@ padding-left:max(40px, calc((100vw - 1120px) / 2));
 padding-right:max(40px, calc((100vw - 1120px) / 2));
 ```
 
-## 5. 侧边栏图标与「管理专用」红块
+## 5. 侧边栏图标与「管理专用」上的红色图标
 
-- 预览环境的 `nav:side` 图标来自外站，离线时会触发 `ERR_CONNECTION_CLOSED`，出现破图 alt 文本。复古方案本身不需要图标，直接隐藏即可：
+- 菜单项图标是真实的 `<img>`；但「管理专用」折叠块上的红色小图标**不是 img**，而是 Sigma-9 的 CSS 背景图：
 
 ```css
-#side-bar .menu-item img{ display:none; }
+#side-bar .collapsible-block-folded{
+  background:url(https://sigma9.scpwikicn.com/cn/img/expand.png) 0 2px no-repeat;
+}
 ```
 
-- 「管理专用」区块的粉色背景来自站点 `nav:side` 里的**内联样式** `style="background-color:#fff0f0"`，不是版式 CSS 的问题。需要在预览里压掉时用 `!important`；**真实 Wikidot 站点上不存在此问题，可忽略，不必为它写兼容规则。**
+因此对 `#side-bar .menu-item img` 写 `display:none` 并不能让它消失。它是折叠块的展开图标，属于正常界面元素，不是版式 bug；确实需要去掉时应覆盖背景，而不是隐藏元素：
+
+```css
+#side-bar .collapsible-block-folded{ background-image:none; }
+```
+
+- 「管理专用」区块的粉色背景来自站点 `nav:side` 里的**内联样式** `style="background-color:#fff0f0"`，不是版式 CSS 的问题。**真实 Wikidot 站点上不存在此问题，可忽略，不必为它写兼容规则。**
+- **不要用 `display:none` 隐藏站点功能区域**，例如 `#page-info`、`#page-options-bottom`、`#page-info-break`、`#action-area-top`。它们是 Wikidot 的真实界面（页面版本、编辑/历史/附件入口），隐藏等于删功能，不是版式设计。需要弱化时用字号、颜色、间距处理。
 
 ## 6. 截图工具的副作用
 
