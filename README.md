@@ -23,7 +23,7 @@
 ## 2. 安装与构建
 
 ```bash
-cd C:/Users/Administrator/wikidotLayoutMCP
+cd <path>
 npm install
 npm run typecheck
 npm test
